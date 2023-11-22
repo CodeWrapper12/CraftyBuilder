@@ -1,0 +1,130 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "craftyBuilder.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "craftyBuilder.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/craftyBuilder.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/craftyBuilder.Application.dll": {}
+        }
+      },
+      "craftyBuilder.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/craftyBuilder.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/craftyBuilder.Domain.dll": {}
+        }
+      },
+      "craftyBuilder.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "craftyBuilder.Application": "1.0.0",
+          "craftyBuilder.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/craftyBuilder.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/craftyBuilder.Infrastructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "craftyBuilder.Application/1.0.0": {
+      "type": "project",
+      "path": "../craftyBuilder.Application/craftyBuilder.Application.csproj",
+      "msbuildProject": "../craftyBuilder.Application/craftyBuilder.Application.csproj"
+    },
+    "craftyBuilder.Domain/1.0.0": {
+      "type": "project",
+      "path": "../craftyBuilder.Domain/craftyBuilder.Domain.csproj",
+      "msbuildProject": "../craftyBuilder.Domain/craftyBuilder.Domain.csproj"
+    },
+    "craftyBuilder.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../craftyBuilder.Infrastructure/craftyBuilder.Infrastructure.csproj",
+      "msbuildProject": "../craftyBuilder.Infrastructure/craftyBuilder.Infrastructure.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "craftyBuilder.Application >= 1.0.0",
+      "craftyBuilder.Infrastructure >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\MohamedThoyyibK\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\MohamedThoyyibK\\WorkSpace\\CraftyBuilder\\src\\craftyBuilder.UI\\craftyBuilder.UI.csproj",
+      "projectName": "craftyBuilder.UI",
+      "projectPath": "C:\\Users\\MohamedThoyyibK\\WorkSpace\\CraftyBuilder\\src\\craftyBuilder.UI\\craftyBuilder.UI.csproj",
+      "packagesPath": "C:\\Users\\MohamedThoyyibK\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\MohamedThoyyibK\\WorkSpace\\CraftyBuilder\\src\\craftyBuilder.UI\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\MohamedThoyyibK\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Users\\MohamedThoyyibK\\WorkSpace\\CraftyBuilder\\src\\craftyBuilder.Application\\craftyBuilder.Application.csproj": {
+              "projectPath": "C:\\Users\\MohamedThoyyibK\\WorkSpace\\CraftyBuilder\\src\\craftyBuilder.Application\\craftyBuilder.Application.csproj"
+            },
+            "C:\\Users\\MohamedThoyyibK\\WorkSpace\\CraftyBuilder\\src\\craftyBuilder.Infrastructure\\craftyBuilder.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\MohamedThoyyibK\\WorkSpace\\CraftyBuilder\\src\\craftyBuilder.Infrastructure\\craftyBuilder.Infrastructure.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
