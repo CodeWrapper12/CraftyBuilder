@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("craftyBuilder.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+08ef93265f86ab1f2b5749ed345124a1705e42e4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f5e4656caa49a403479c6e271f8fa893985275e2")]
 [assembly: System.Reflection.AssemblyProductAttribute("craftyBuilder.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("craftyBuilder.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
