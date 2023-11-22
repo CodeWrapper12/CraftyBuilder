@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = craftyBuilder.Application
-build_property.ProjectDir = c:\Users\MohamedThoyyibK\WorkSpace\CraftyBuilder\src\craftyBuilder.Application\
+build_property.ProjectDir = C:\Users\MohamedThoyyibK\WorkSpace\CraftyBuilder\src\craftyBuilder.Application\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
