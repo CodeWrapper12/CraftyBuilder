@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "craftyBuilder.Application/1.0.0": {
+        "dependencies": {
+          "craftyBuilder.Domain": "1.0.0"
+        },
+        "runtime": {
+          "craftyBuilder.Application.dll": {}
+        }
+      },
+      "craftyBuilder.Domain/1.0.0": {
+        "runtime": {
+          "craftyBuilder.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "craftyBuilder.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "craftyBuilder.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
