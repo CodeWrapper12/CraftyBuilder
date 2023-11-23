@@ -6,6 +6,8 @@ using Azure.AI.OpenAI;
 using Microsoft.Extensions.Options;
 using Azure;
 using Microsoft.Extensions.Hosting;
+using craftyBuilder.Domain.Interfaces.CheckOs;
+using craftyBuilder.Application.CheckOs;
 
 namespace Microsoft.Extensions.DependencyInjection;
 
@@ -29,8 +31,8 @@ public static class ConfigureServices
         System.Console.WriteLine(settings.Endpoint);
         return client;
     });
-
         services.AddHostedService<AIService>();
+        services.AddTransient<ICheckOs, CheckOs>();
         return services;
     }
 }

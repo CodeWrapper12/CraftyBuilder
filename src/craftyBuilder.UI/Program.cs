@@ -1,4 +1,5 @@
-﻿using craftyBuilder.Domain.Logging;
+﻿using craftyBuilder.Application.CheckOs;
+using craftyBuilder.Domain.Logging;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -13,7 +14,6 @@ var host = Host.CreateDefaultBuilder()
                     .AddJsonFile("appsettings.json")
                     .Build();
             }).Build();
-
 var aiService = host.Services.GetRequiredService<IHostedService>();
 
 // Manually invoke StartAsync

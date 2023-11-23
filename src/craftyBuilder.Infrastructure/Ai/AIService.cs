@@ -22,47 +22,33 @@ public class AIService : IHostedService
     {
         Settings s = settings.Value;
 
-        bool goodbye = false;
         ChatCompletionsOptions completionsOptions = new()
         {
             MaxTokens = s.MaxTokens,
             Temperature = s.Temperature,
             FrequencyPenalty = s.FrequencyPenalty,
             PresencePenalty = s.PresencePenalty,
-            // Messages =
-            // {
-            //     new(ChatRole.System, s.SystemPrompt)
-            // }
             DeploymentName = "gpt-35-turbo"
 
         };
 
         WriteAssistantMessage("Beep, boop, I'm .DotNetBot and I'm here to help. If you're done say goodbye.", newLine: true);
-
-        string proxyUrl = "https://aoai.hacktogether.net";
-        string key = "f118ca66-2ad3-443a-ad27-cf6ee37bcdba";
-
-        // the full url is appended by /v1/api
-        Uri _ = new
-        (proxyUrl + "/v1/api");
-
-        // the full key is appended by "/YOUR-GITHUB-ALIAS"
-        AzureKeyCredential token = new(key + "/YOUR-GITHUB-ALIAS");
-
-        // instantiate the client with the "full" values for the url and key/token
-        // OpenAIClient openAIClient = new(_, token);
-
-        // ChatCompletionsOptions completionsOptions = new()
-        // {
-        //     MaxTokens = 2048,
-        //     Temperature = 0.7f,
-        //     NucleusSamplingFactor = 0.95f,
-        //     DeploymentName = "gpt-35-turbo"
-        // };
-        System.Console.WriteLine("if u want ur chatbot,customization please enter details here:");
-        var customization = Console.ReadLine() ?? "you are a helpful bot to appropriate  answers to others, and your name is ByteBot";
+        var customization = @"When the user mentions their desired application framework (e.g., .NET, React, or Angular), identify the available application types that can be created using that framework.
+Based on the user's system configuration, determine the feasibility of creating each identified application type.
+Filter out any application types that are not feasible due to system limitations.
+Present the user with a list of the remaining feasible application types, along with a brief description of each.
+If the user asks a question that is not directly related to creating an application, respond with ""I don't have much knowledge on that topic.""
+When responding with a list of feasible application types, format the response as an object with the following structure: {
+  ""success"": true,
+  ""data"": [
+    ""dotnet console"",
+    ""dotnet web app"",
+    ...
+  ]
+}";
 
         completionsOptions.Messages.Add(new ChatMessage(ChatRole.System, customization));
+        completionsOptions.Messages.Add(new ChatMessage(ChatRole.Assistant, customization));
         bool isActive = true;
         System.Console.WriteLine("if u want to quit enter goodbye");
         while (isActive)

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("craftyBuilder.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+320d29a1bac6527ad406056e4ac0163615f3bcc5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+503892e6ad4d362d5034029d8594064547d676fe")]
 [assembly: System.Reflection.AssemblyProductAttribute("craftyBuilder.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("craftyBuilder.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
