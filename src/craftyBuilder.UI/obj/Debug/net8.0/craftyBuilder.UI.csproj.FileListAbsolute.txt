@@ -54,3 +54,8 @@ C:\Users\MohamedThoyyibK\WorkSpace\CraftyBuilder\src\craftyBuilder.UI\obj\Debug\
 C:\Users\MohamedThoyyibK\WorkSpace\CraftyBuilder\src\craftyBuilder.UI\obj\Debug\net8.0\craftyBuilder.UI.pdb
 C:\Users\MohamedThoyyibK\WorkSpace\CraftyBuilder\src\craftyBuilder.UI\obj\Debug\net8.0\craftyBuilder.UI.genruntimeconfig.cache
 C:\Users\MohamedThoyyibK\WorkSpace\CraftyBuilder\src\craftyBuilder.UI\obj\Debug\net8.0\ref\craftyBuilder.UI.dll
+C:\Users\MohamedThoyyibK\WorkSpace\CraftyBuilder\src\craftyBuilder.UI\bin\Debug\net8.0\Azure.AI.OpenAI.dll
+C:\Users\MohamedThoyyibK\WorkSpace\CraftyBuilder\src\craftyBuilder.UI\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\MohamedThoyyibK\WorkSpace\CraftyBuilder\src\craftyBuilder.UI\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\MohamedThoyyibK\WorkSpace\CraftyBuilder\src\craftyBuilder.UI\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\MohamedThoyyibK\WorkSpace\CraftyBuilder\src\craftyBuilder.UI\bin\Debug\net8.0\appsettings.json

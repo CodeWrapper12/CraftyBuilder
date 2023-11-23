@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("craftyBuilder.UI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f5e4656caa49a403479c6e271f8fa893985275e2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+320d29a1bac6527ad406056e4ac0163615f3bcc5")]
 [assembly: System.Reflection.AssemblyProductAttribute("craftyBuilder.UI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("craftyBuilder.UI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

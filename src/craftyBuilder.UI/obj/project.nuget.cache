@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "4gMWn1krRg7EX1qsap0mgGkzC8pTW3L0ZG8dTup7R8jFEi16moF48WL3FtBf1E/pidBTTreaHAK4nQ+X3fjSuQ==",
+  "dgSpecHash": "zP8SUeQUAXn6hZ2b9vL1u0EtpeDq262ZLSdo8QiBpWHgxQ87nuVQMzmFOu+me3vd7tRF3azkpiURn9xBqlaMKg==",
   "success": true,
   "projectFilePath": "C:\\Users\\MohamedThoyyibK\\WorkSpace\\CraftyBuilder\\src\\craftyBuilder.UI\\craftyBuilder.UI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\MohamedThoyyibK\\.nuget\\packages\\azure.ai.openai\\1.0.0-beta.9\\azure.ai.openai.1.0.0-beta.9.nupkg.sha512",
+    "C:\\Users\\MohamedThoyyibK\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
+    "C:\\Users\\MohamedThoyyibK\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\MohamedThoyyibK\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "C:\\Users\\MohamedThoyyibK\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\MohamedThoyyibK\\.nuget\\packages\\microsoft.extensions.configuration.binder\\8.0.0\\microsoft.extensions.configuration.binder.8.0.0.nupkg.sha512",
@@ -36,8 +39,11 @@
     "C:\\Users\\MohamedThoyyibK\\.nuget\\packages\\serilog.sinks.file\\5.0.0\\serilog.sinks.file.5.0.0.nupkg.sha512",
     "C:\\Users\\MohamedThoyyibK\\.nuget\\packages\\system.diagnostics.diagnosticsource\\8.0.0\\system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512",
     "C:\\Users\\MohamedThoyyibK\\.nuget\\packages\\system.diagnostics.eventlog\\8.0.0\\system.diagnostics.eventlog.8.0.0.nupkg.sha512",
+    "C:\\Users\\MohamedThoyyibK\\.nuget\\packages\\system.memory.data\\1.0.2\\system.memory.data.1.0.2.nupkg.sha512",
+    "C:\\Users\\MohamedThoyyibK\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\MohamedThoyyibK\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
-    "C:\\Users\\MohamedThoyyibK\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512"
+    "C:\\Users\\MohamedThoyyibK\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512",
+    "C:\\Users\\MohamedThoyyibK\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
   ],
   "logs": []
 }

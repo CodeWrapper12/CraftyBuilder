@@ -1,4 +1,5 @@
 ﻿using craftyBuilder.Domain.Logging;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Serilog;
@@ -7,21 +8,39 @@ var host = Host.CreateDefaultBuilder()
             .ConfigureServices((hostContext, services) =>
             {
               services.AddInfrastructureServices(hostContext.Configuration);
-            })
-            .Build();
+              var configuration = new ConfigurationBuilder()
+                    .SetBasePath(Directory.GetCurrentDirectory())
+                    .AddJsonFile("appsettings.json")
+                    .Build();
+            }).Build();
+
+var aiService = host.Services.GetRequiredService<IHostedService>();
+
+// Manually invoke StartAsync
+await aiService.StartAsync(CancellationToken.None);
 
 // The rest of your application logic goes here
 System.Console.WriteLine("Ai Started inside");
-var app = host.Services.GetRequiredService<ITest>();
+// var app = host.Services.GetRequiredService<IHostedService>();
 
-app.printSomething();
 int selectedIndex = 0;
 string[] options = { "Option 1", "Option 2", "Option 3", "Exit" };
-
+var a = @"
+ ▄████▄      ██▀███      ▄▄▄           █████▒   ▄▄▄█████▓   ▓██   ██▓       ▄▄▄▄       █    ██     ██▓    ██▓       ▓█████▄    ▓█████     ██▀███  
+▒██▀ ▀█     ▓██ ▒ ██▒   ▒████▄       ▓██   ▒    ▓  ██▒ ▓▒    ▒██  ██▒      ▓█████▄     ██  ▓██▒   ▓██▒   ▓██▒       ▒██▀ ██▌   ▓█   ▀    ▓██ ▒ ██▒
+▒▓█    ▄    ▓██ ░▄█ ▒   ▒██  ▀█▄     ▒████ ░    ▒ ▓██░ ▒░     ▒██ ██░      ▒██▒ ▄██   ▓██  ▒██░   ▒██▒   ▒██░       ░██   █▌   ▒███      ▓██ ░▄█ ▒
+▒▓▓▄ ▄██▒   ▒██▀▀█▄     ░██▄▄▄▄██    ░▓█▒  ░    ░ ▓██▓ ░      ░ ▐██▓░      ▒██░█▀     ▓▓█  ░██░   ░██░   ▒██░       ░▓█▄   ▌   ▒▓█  ▄    ▒██▀▀█▄  
+▒ ▓███▀ ░   ░██▓ ▒██▒    ▓█   ▓██▒   ░▒█░         ▒██▒ ░      ░ ██▒▓░      ░▓█  ▀█▓   ▒▒█████▓    ░██░   ░██████▒   ░▒████▓    ░▒████▒   ░██▓ ▒██▒
+░ ░▒ ▒  ░   ░ ▒▓ ░▒▓░    ▒▒   ▓▒█░    ▒ ░         ▒ ░░         ██▒▒▒       ░▒▓███▀▒   ░▒▓▒ ▒ ▒    ░▓     ░ ▒░▓  ░    ▒▒▓  ▒    ░░ ▒░ ░   ░ ▒▓ ░▒▓░
+  ░  ▒        ░▒ ░ ▒░     ▒   ▒▒ ░    ░             ░        ▓██ ░▒░       ▒░▒   ░    ░░▒░ ░ ░     ▒ ░   ░ ░ ▒  ░    ░ ▒  ▒     ░ ░  ░     ░▒ ░ ▒░
+░             ░░   ░      ░   ▒       ░ ░         ░          ▒ ▒ ░░         ░    ░     ░░░ ░ ░     ▒ ░     ░ ░       ░ ░  ░       ░        ░░   ░ 
+░ ░            ░              ░  ░                           ░ ░            ░            ░         ░         ░  ░      ░          ░  ░      ░     
+░                                                            ░ ░                 ░                                   ░                            
+";
 while (true)
 {
   Console.Clear();
-
+  System.Console.WriteLine(a);
   // Display the menu options
   for (int i = 0; i < options.Length; i++)
   {
