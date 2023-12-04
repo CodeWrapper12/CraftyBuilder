@@ -1,0 +1,16 @@
+C:\Users\MohamedThoyyibK\WorkSpace\CraftyBuilder\src\craftyBuilder.Application\bin\Debug\net8.0\craftyBuilder.Application.deps.json
+C:\Users\MohamedThoyyibK\WorkSpace\CraftyBuilder\src\craftyBuilder.Application\bin\Debug\net8.0\craftyBuilder.Application.dll
+C:\Users\MohamedThoyyibK\WorkSpace\CraftyBuilder\src\craftyBuilder.Application\bin\Debug\net8.0\craftyBuilder.Application.pdb
+C:\Users\MohamedThoyyibK\WorkSpace\CraftyBuilder\src\craftyBuilder.Application\bin\Debug\net8.0\craftyBuilder.Domain.dll
+C:\Users\MohamedThoyyibK\WorkSpace\CraftyBuilder\src\craftyBuilder.Application\bin\Debug\net8.0\craftyBuilder.Domain.pdb
+C:\Users\MohamedThoyyibK\WorkSpace\CraftyBuilder\src\craftyBuilder.Application\obj\Debug\net8.0\craftyBuilder.Application.csproj.AssemblyReference.cache
+C:\Users\MohamedThoyyibK\WorkSpace\CraftyBuilder\src\craftyBuilder.Application\obj\Debug\net8.0\craftyBuilder.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MohamedThoyyibK\WorkSpace\CraftyBuilder\src\craftyBuilder.Application\obj\Debug\net8.0\craftyBuilder.Application.AssemblyInfoInputs.cache
+C:\Users\MohamedThoyyibK\WorkSpace\CraftyBuilder\src\craftyBuilder.Application\obj\Debug\net8.0\craftyBuilder.Application.AssemblyInfo.cs
+C:\Users\MohamedThoyyibK\WorkSpace\CraftyBuilder\src\craftyBuilder.Application\obj\Debug\net8.0\craftyBuilder.Application.csproj.CoreCompileInputs.cache
+C:\Users\MohamedThoyyibK\WorkSpace\CraftyBuilder\src\craftyBuilder.Application\obj\Debug\net8.0\craftyBuilder.Application.sourcelink.json
+C:\Users\MohamedThoyyibK\WorkSpace\CraftyBuilder\src\craftyBuilder.Application\obj\Debug\net8.0\craftyBuilder.Application.csproj.CopyComplete
+C:\Users\MohamedThoyyibK\WorkSpace\CraftyBuilder\src\craftyBuilder.Application\obj\Debug\net8.0\craftyBuilder.Application.dll
+C:\Users\MohamedThoyyibK\WorkSpace\CraftyBuilder\src\craftyBuilder.Application\obj\Debug\net8.0\refint\craftyBuilder.Application.dll
+C:\Users\MohamedThoyyibK\WorkSpace\CraftyBuilder\src\craftyBuilder.Application\obj\Debug\net8.0\craftyBuilder.Application.pdb
+C:\Users\MohamedThoyyibK\WorkSpace\CraftyBuilder\src\craftyBuilder.Application\obj\Debug\net8.0\ref\craftyBuilder.Application.dll

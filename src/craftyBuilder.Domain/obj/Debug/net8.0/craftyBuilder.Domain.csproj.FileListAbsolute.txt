@@ -1,0 +1,12 @@
+C:\Users\MohamedThoyyibK\WorkSpace\CraftyBuilder\src\craftyBuilder.Domain\bin\Debug\net8.0\craftyBuilder.Domain.deps.json
+C:\Users\MohamedThoyyibK\WorkSpace\CraftyBuilder\src\craftyBuilder.Domain\bin\Debug\net8.0\craftyBuilder.Domain.dll
+C:\Users\MohamedThoyyibK\WorkSpace\CraftyBuilder\src\craftyBuilder.Domain\bin\Debug\net8.0\craftyBuilder.Domain.pdb
+C:\Users\MohamedThoyyibK\WorkSpace\CraftyBuilder\src\craftyBuilder.Domain\obj\Debug\net8.0\craftyBuilder.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MohamedThoyyibK\WorkSpace\CraftyBuilder\src\craftyBuilder.Domain\obj\Debug\net8.0\craftyBuilder.Domain.AssemblyInfoInputs.cache
+C:\Users\MohamedThoyyibK\WorkSpace\CraftyBuilder\src\craftyBuilder.Domain\obj\Debug\net8.0\craftyBuilder.Domain.AssemblyInfo.cs
+C:\Users\MohamedThoyyibK\WorkSpace\CraftyBuilder\src\craftyBuilder.Domain\obj\Debug\net8.0\craftyBuilder.Domain.csproj.CoreCompileInputs.cache
+C:\Users\MohamedThoyyibK\WorkSpace\CraftyBuilder\src\craftyBuilder.Domain\obj\Debug\net8.0\craftyBuilder.Domain.sourcelink.json
+C:\Users\MohamedThoyyibK\WorkSpace\CraftyBuilder\src\craftyBuilder.Domain\obj\Debug\net8.0\craftyBuilder.Domain.dll
+C:\Users\MohamedThoyyibK\WorkSpace\CraftyBuilder\src\craftyBuilder.Domain\obj\Debug\net8.0\refint\craftyBuilder.Domain.dll
+C:\Users\MohamedThoyyibK\WorkSpace\CraftyBuilder\src\craftyBuilder.Domain\obj\Debug\net8.0\craftyBuilder.Domain.pdb
+C:\Users\MohamedThoyyibK\WorkSpace\CraftyBuilder\src\craftyBuilder.Domain\obj\Debug\net8.0\ref\craftyBuilder.Domain.dll
