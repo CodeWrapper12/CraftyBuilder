@@ -1,5 +1,0 @@
-2023-11-23 11:47:15.503 +05:30 [INF] Log information
-2023-11-23 11:47:15.518 +05:30 [ERR] LogError
-2023-11-23 11:47:15.521 +05:30 [INF] Log information
-2023-11-23 11:47:15.523 +05:30 [ERR] LogError
-2023-11-23 11:47:15.527 +05:30 [INF] Log information

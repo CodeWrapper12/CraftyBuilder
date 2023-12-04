@@ -9,7 +9,6 @@ public class CheckOs : ICheckOs
     {
         OperatingSystem os = Environment.OSVersion;
         OsDetails = $"Platform: {os.Platform},Version: {os.Version},Service Pack: {os.ServicePack}";
-        Console.WriteLine($"{OsDetails}");
     }
 
     public string FindOs()

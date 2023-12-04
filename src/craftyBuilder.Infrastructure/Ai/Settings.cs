@@ -20,7 +20,7 @@ public class Settings
     Response using Australian colloquialisms and slang.
     """;
 
-    public int MaxTokens { get; set; } = 1500;
+    public int MaxTokens { get; set; } = 4000;
 
     public float Temperature { get; set; } = 0.7f;
 
