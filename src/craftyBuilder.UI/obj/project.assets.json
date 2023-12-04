@@ -2176,19 +2176,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\MohamedThoyyibK\\.nuget\\packages\\": {}
+    "/Users/thoyib/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MohamedThoyyibK\\WorkSpace\\CraftyBuilder\\src\\craftyBuilder.UI\\craftyBuilder.UI.csproj",
+      "projectUniqueName": "/Users/thoyib/Dotnet/mohamed-k/craftyBuilder/CraftyBuilder/src/craftyBuilder.UI/craftyBuilder.UI.csproj",
       "projectName": "craftyBuilder.UI",
-      "projectPath": "C:\\Users\\MohamedThoyyibK\\WorkSpace\\CraftyBuilder\\src\\craftyBuilder.UI\\craftyBuilder.UI.csproj",
-      "packagesPath": "C:\\Users\\MohamedThoyyibK\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MohamedThoyyibK\\WorkSpace\\CraftyBuilder\\src\\craftyBuilder.UI\\obj\\",
+      "projectPath": "/Users/thoyib/Dotnet/mohamed-k/craftyBuilder/CraftyBuilder/src/craftyBuilder.UI/craftyBuilder.UI.csproj",
+      "packagesPath": "/Users/thoyib/.nuget/packages/",
+      "outputPath": "/Users/thoyib/Dotnet/mohamed-k/craftyBuilder/CraftyBuilder/src/craftyBuilder.UI/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\MohamedThoyyibK\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/thoyib/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -2200,11 +2200,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\MohamedThoyyibK\\WorkSpace\\CraftyBuilder\\src\\craftyBuilder.Application\\craftyBuilder.Application.csproj": {
-              "projectPath": "C:\\Users\\MohamedThoyyibK\\WorkSpace\\CraftyBuilder\\src\\craftyBuilder.Application\\craftyBuilder.Application.csproj"
+            "/Users/thoyib/Dotnet/mohamed-k/craftyBuilder/CraftyBuilder/src/craftyBuilder.Application/craftyBuilder.Application.csproj": {
+              "projectPath": "/Users/thoyib/Dotnet/mohamed-k/craftyBuilder/CraftyBuilder/src/craftyBuilder.Application/craftyBuilder.Application.csproj"
             },
-            "C:\\Users\\MohamedThoyyibK\\WorkSpace\\CraftyBuilder\\src\\craftyBuilder.Infrastructure\\craftyBuilder.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\MohamedThoyyibK\\WorkSpace\\CraftyBuilder\\src\\craftyBuilder.Infrastructure\\craftyBuilder.Infrastructure.csproj"
+            "/Users/thoyib/Dotnet/mohamed-k/craftyBuilder/CraftyBuilder/src/craftyBuilder.Infrastructure/craftyBuilder.Infrastructure.csproj": {
+              "projectPath": "/Users/thoyib/Dotnet/mohamed-k/craftyBuilder/CraftyBuilder/src/craftyBuilder.Infrastructure/craftyBuilder.Infrastructure.csproj"
             }
           }
         }
@@ -2240,7 +2240,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

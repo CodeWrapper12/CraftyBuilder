@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y0VHc098GCaBFJmT/udhlc3dDNi2BYaMtdH2UoeIe1YgPE7OZkUZLwwbZ20KiVZVR6WrMnbt4kqYal6D0HGggQ==",
+  "dgSpecHash": "bfGE6kRKfMYw9iTgRwTWuZvInlvhCNJcbajXqeya9WTERjbMOH+0YngLBtm2Gk/3gd/1UHRTWy9HHLKRh39Opw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\MohamedThoyyibK\\WorkSpace\\CraftyBuilder\\src\\craftyBuilder.Application\\craftyBuilder.Application.csproj",
+  "projectFilePath": "/Users/thoyib/Dotnet/mohamed-k/craftyBuilder/CraftyBuilder/src/craftyBuilder.Application/craftyBuilder.Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

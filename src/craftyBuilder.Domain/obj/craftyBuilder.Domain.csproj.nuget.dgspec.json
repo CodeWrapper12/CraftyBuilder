@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MohamedThoyyibK\\WorkSpace\\CraftyBuilder\\src\\craftyBuilder.Domain\\craftyBuilder.Domain.csproj": {}
+    "/Users/thoyib/Dotnet/mohamed-k/craftyBuilder/CraftyBuilder/src/craftyBuilder.Domain/craftyBuilder.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MohamedThoyyibK\\WorkSpace\\CraftyBuilder\\src\\craftyBuilder.Domain\\craftyBuilder.Domain.csproj": {
+    "/Users/thoyib/Dotnet/mohamed-k/craftyBuilder/CraftyBuilder/src/craftyBuilder.Domain/craftyBuilder.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MohamedThoyyibK\\WorkSpace\\CraftyBuilder\\src\\craftyBuilder.Domain\\craftyBuilder.Domain.csproj",
+        "projectUniqueName": "/Users/thoyib/Dotnet/mohamed-k/craftyBuilder/CraftyBuilder/src/craftyBuilder.Domain/craftyBuilder.Domain.csproj",
         "projectName": "craftyBuilder.Domain",
-        "projectPath": "C:\\Users\\MohamedThoyyibK\\WorkSpace\\CraftyBuilder\\src\\craftyBuilder.Domain\\craftyBuilder.Domain.csproj",
-        "packagesPath": "C:\\Users\\MohamedThoyyibK\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MohamedThoyyibK\\WorkSpace\\CraftyBuilder\\src\\craftyBuilder.Domain\\obj\\",
+        "projectPath": "/Users/thoyib/Dotnet/mohamed-k/craftyBuilder/CraftyBuilder/src/craftyBuilder.Domain/craftyBuilder.Domain.csproj",
+        "packagesPath": "/Users/thoyib/.nuget/packages/",
+        "outputPath": "/Users/thoyib/Dotnet/mohamed-k/craftyBuilder/CraftyBuilder/src/craftyBuilder.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\MohamedThoyyibK\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/thoyib/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

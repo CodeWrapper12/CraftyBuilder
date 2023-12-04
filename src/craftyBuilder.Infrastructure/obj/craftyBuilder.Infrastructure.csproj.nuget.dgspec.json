@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MohamedThoyyibK\\WorkSpace\\CraftyBuilder\\src\\craftyBuilder.Infrastructure\\craftyBuilder.Infrastructure.csproj": {}
+    "/Users/thoyib/Dotnet/mohamed-k/craftyBuilder/CraftyBuilder/src/craftyBuilder.Infrastructure/craftyBuilder.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MohamedThoyyibK\\WorkSpace\\CraftyBuilder\\src\\craftyBuilder.Application\\craftyBuilder.Application.csproj": {
+    "/Users/thoyib/Dotnet/mohamed-k/craftyBuilder/CraftyBuilder/src/craftyBuilder.Application/craftyBuilder.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MohamedThoyyibK\\WorkSpace\\CraftyBuilder\\src\\craftyBuilder.Application\\craftyBuilder.Application.csproj",
+        "projectUniqueName": "/Users/thoyib/Dotnet/mohamed-k/craftyBuilder/CraftyBuilder/src/craftyBuilder.Application/craftyBuilder.Application.csproj",
         "projectName": "craftyBuilder.Application",
-        "projectPath": "C:\\Users\\MohamedThoyyibK\\WorkSpace\\CraftyBuilder\\src\\craftyBuilder.Application\\craftyBuilder.Application.csproj",
-        "packagesPath": "C:\\Users\\MohamedThoyyibK\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MohamedThoyyibK\\WorkSpace\\CraftyBuilder\\src\\craftyBuilder.Application\\obj\\",
+        "projectPath": "/Users/thoyib/Dotnet/mohamed-k/craftyBuilder/CraftyBuilder/src/craftyBuilder.Application/craftyBuilder.Application.csproj",
+        "packagesPath": "/Users/thoyib/.nuget/packages/",
+        "outputPath": "/Users/thoyib/Dotnet/mohamed-k/craftyBuilder/CraftyBuilder/src/craftyBuilder.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\MohamedThoyyibK\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/thoyib/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -26,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\MohamedThoyyibK\\WorkSpace\\CraftyBuilder\\src\\craftyBuilder.Domain\\craftyBuilder.Domain.csproj": {
-                "projectPath": "C:\\Users\\MohamedThoyyibK\\WorkSpace\\CraftyBuilder\\src\\craftyBuilder.Domain\\craftyBuilder.Domain.csproj"
+              "/Users/thoyib/Dotnet/mohamed-k/craftyBuilder/CraftyBuilder/src/craftyBuilder.Domain/craftyBuilder.Domain.csproj": {
+                "projectPath": "/Users/thoyib/Dotnet/mohamed-k/craftyBuilder/CraftyBuilder/src/craftyBuilder.Domain/craftyBuilder.Domain.csproj"
               }
             }
           }
@@ -57,21 +57,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\MohamedThoyyibK\\WorkSpace\\CraftyBuilder\\src\\craftyBuilder.Domain\\craftyBuilder.Domain.csproj": {
+    "/Users/thoyib/Dotnet/mohamed-k/craftyBuilder/CraftyBuilder/src/craftyBuilder.Domain/craftyBuilder.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MohamedThoyyibK\\WorkSpace\\CraftyBuilder\\src\\craftyBuilder.Domain\\craftyBuilder.Domain.csproj",
+        "projectUniqueName": "/Users/thoyib/Dotnet/mohamed-k/craftyBuilder/CraftyBuilder/src/craftyBuilder.Domain/craftyBuilder.Domain.csproj",
         "projectName": "craftyBuilder.Domain",
-        "projectPath": "C:\\Users\\MohamedThoyyibK\\WorkSpace\\CraftyBuilder\\src\\craftyBuilder.Domain\\craftyBuilder.Domain.csproj",
-        "packagesPath": "C:\\Users\\MohamedThoyyibK\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MohamedThoyyibK\\WorkSpace\\CraftyBuilder\\src\\craftyBuilder.Domain\\obj\\",
+        "projectPath": "/Users/thoyib/Dotnet/mohamed-k/craftyBuilder/CraftyBuilder/src/craftyBuilder.Domain/craftyBuilder.Domain.csproj",
+        "packagesPath": "/Users/thoyib/.nuget/packages/",
+        "outputPath": "/Users/thoyib/Dotnet/mohamed-k/craftyBuilder/CraftyBuilder/src/craftyBuilder.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\MohamedThoyyibK\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/thoyib/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -110,21 +110,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\MohamedThoyyibK\\WorkSpace\\CraftyBuilder\\src\\craftyBuilder.Infrastructure\\craftyBuilder.Infrastructure.csproj": {
+    "/Users/thoyib/Dotnet/mohamed-k/craftyBuilder/CraftyBuilder/src/craftyBuilder.Infrastructure/craftyBuilder.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MohamedThoyyibK\\WorkSpace\\CraftyBuilder\\src\\craftyBuilder.Infrastructure\\craftyBuilder.Infrastructure.csproj",
+        "projectUniqueName": "/Users/thoyib/Dotnet/mohamed-k/craftyBuilder/CraftyBuilder/src/craftyBuilder.Infrastructure/craftyBuilder.Infrastructure.csproj",
         "projectName": "craftyBuilder.Infrastructure",
-        "projectPath": "C:\\Users\\MohamedThoyyibK\\WorkSpace\\CraftyBuilder\\src\\craftyBuilder.Infrastructure\\craftyBuilder.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\MohamedThoyyibK\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MohamedThoyyibK\\WorkSpace\\CraftyBuilder\\src\\craftyBuilder.Infrastructure\\obj\\",
+        "projectPath": "/Users/thoyib/Dotnet/mohamed-k/craftyBuilder/CraftyBuilder/src/craftyBuilder.Infrastructure/craftyBuilder.Infrastructure.csproj",
+        "packagesPath": "/Users/thoyib/.nuget/packages/",
+        "outputPath": "/Users/thoyib/Dotnet/mohamed-k/craftyBuilder/CraftyBuilder/src/craftyBuilder.Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\MohamedThoyyibK\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/thoyib/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -136,11 +136,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\MohamedThoyyibK\\WorkSpace\\CraftyBuilder\\src\\craftyBuilder.Application\\craftyBuilder.Application.csproj": {
-                "projectPath": "C:\\Users\\MohamedThoyyibK\\WorkSpace\\CraftyBuilder\\src\\craftyBuilder.Application\\craftyBuilder.Application.csproj"
+              "/Users/thoyib/Dotnet/mohamed-k/craftyBuilder/CraftyBuilder/src/craftyBuilder.Application/craftyBuilder.Application.csproj": {
+                "projectPath": "/Users/thoyib/Dotnet/mohamed-k/craftyBuilder/CraftyBuilder/src/craftyBuilder.Application/craftyBuilder.Application.csproj"
               },
-              "C:\\Users\\MohamedThoyyibK\\WorkSpace\\CraftyBuilder\\src\\craftyBuilder.Domain\\craftyBuilder.Domain.csproj": {
-                "projectPath": "C:\\Users\\MohamedThoyyibK\\WorkSpace\\CraftyBuilder\\src\\craftyBuilder.Domain\\craftyBuilder.Domain.csproj"
+              "/Users/thoyib/Dotnet/mohamed-k/craftyBuilder/CraftyBuilder/src/craftyBuilder.Domain/craftyBuilder.Domain.csproj": {
+                "projectPath": "/Users/thoyib/Dotnet/mohamed-k/craftyBuilder/CraftyBuilder/src/craftyBuilder.Domain/craftyBuilder.Domain.csproj"
               }
             }
           }
@@ -204,7 +204,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
