@@ -39,7 +39,7 @@ public class AIService : IHostedService, IAiService
             DeploymentName = "gpt-35-turbo"
         };
 
-        var customization = "Please limit your responses to only the information I request. Do not provide any additional information or engage in any unnecessary conversation";
+        // var customization = "Please limit your responses to only the information I request. Do not provide any additional information or engage in any unnecessary conversation";
 
         // completionsOptions.Messages.Add(new ChatMessage(ChatRole.System, customization));
         // completionsOptions.Messages.Add(new ChatMessage(ChatRole.Assistant, customization));
